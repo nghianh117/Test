@@ -1,0 +1,7 @@
+export const TODOS_LOADED='todos loaded'
+export const TODO='todo'
+export const CREATE_TODO='create todo'
+export const UPDATE_TODO='update todo'
+export const DELETE_TODO='delete todo'
+export const SEARCH_TODO='search todo'
+export const STATUS_TODO='status todo'
