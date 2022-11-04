@@ -1,0 +1,1 @@
+Dùng lệnh để chạy: node index.js (Số nguyên dương)
