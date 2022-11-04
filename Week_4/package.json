@@ -1,0 +1,24 @@
+{
+  "name": "week_4",
+  "version": "1.0.0",
+  "description": "docker run --name demo-postgres -e POSTGRES_PASSWORD=password1234 -p 5432:5432 -d postgres",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^4.5.0",
+    "argon2": "^0.30.1",
+    "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "prisma": "^4.5.0"
+  }
+}
