@@ -1,0 +1,14 @@
+extends ../layout/index.pug
+
+block main 
+    .container
+        h3 Update todo
+        form(action='/todo/update/'+todo.id+'?_method=PUT', method='POST')
+            input(type='hidden', name='_method', value='PUT')
+            .form-group.mb-3
+                label(for='title') Title
+                input.form-control(type='text', name='title', required,value=todo.title) 
+            .form-group.mb-3
+                label(for='text') Description
+                textarea.form-control(name='desc', required) #{todo.desc}
+            button.btn.btn-primary(type='submit') Submit

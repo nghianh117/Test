@@ -1,0 +1,13 @@
+extends ../layout/index.pug
+
+block main 
+    .container
+        h3 Create new todo
+        form(action='/todo/create', method='post')
+            .form-group.mb-3
+                label(for='title') Title
+                input.form-control(type='text', name='title', required)
+            .form-group.mb-3
+                label(for='text') Description
+                textarea.form-control(name='desc', required)
+            button.btn.btn-primary(type='submit') Submit
