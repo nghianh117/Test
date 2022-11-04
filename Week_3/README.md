@@ -1,0 +1,1 @@
+Dùng lệnh để chạy: nodemon index
